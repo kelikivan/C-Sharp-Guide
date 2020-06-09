@@ -1,0 +1,6 @@
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID\obj\Debug\SPR.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID\bin\Debug\SPR.exe.config
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID\bin\Debug\SPR.exe
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID\bin\Debug\SPR.pdb
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID\obj\Debug\SPR.exe
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID\obj\Debug\SPR.pdb
