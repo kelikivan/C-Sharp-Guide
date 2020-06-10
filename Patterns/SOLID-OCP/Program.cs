@@ -181,18 +181,20 @@ namespace OCP
             foreach (var p in bf.Filter(products, new SizeSpecification(Size.Large)))
                 Console.WriteLine($" - {p.Name} is large");
 
+            Console.WriteLine("Large blue items");
+            foreach (var p in bf.Filter(products,
+              new AndSpecification<Product>(new ColorSpecification(Color.Blue),
+                new SizeSpecification(Size.Large))))
+            {
+                Console.WriteLine($" - {p.Name} is big and blue");
+            }
+
             var largeGreenSpec = new ColorSpecification(Color.Green)
                                  & new SizeSpecification(Size.Large);
             //var largeGreenSpec = Color.Green.And(Size.Large);
 
-            Console.WriteLine("Large blue items");
-            foreach (var p in bf.Filter(products,
-              new AndSpecification<Product>(new ColorSpecification(Color.Blue),
-                new SizeSpecification(Size.Large)))
-            )
-            {
+            foreach (var p in bf.Filter(products, largeGreenSpec))
                 Console.WriteLine($" - {p.Name} is big and blue");
-            }
         }
     }
 }
