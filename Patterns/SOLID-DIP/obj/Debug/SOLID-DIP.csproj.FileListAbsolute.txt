@@ -1,0 +1,6 @@
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID-DIP\bin\Debug\SOLID-DIP.exe.config
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID-DIP\bin\Debug\SOLID-DIP.exe
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID-DIP\bin\Debug\SOLID-DIP.pdb
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID-DIP\obj\Debug\SOLID-DIP.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID-DIP\obj\Debug\SOLID-DIP.exe
+D:\GitHub\C-Sharp-Guide\Patterns\SOLID-DIP\obj\Debug\SOLID-DIP.pdb
